@@ -4,9 +4,15 @@ public class FactorialOfNumber {
 
 	public int factorial(int number) {
 
+		
 
 		int result = 1;
 		System.out.println("Given Number:" + number);
+		
+		if (number ==0) {
+			
+			return 0;
+		}
 
 		while (number != 0) {
 
@@ -19,7 +25,7 @@ public class FactorialOfNumber {
 	public static void main(String[] args) {
 
 		FactorialOfNumber FN = new FactorialOfNumber();
-		int endresult = FN.factorial(3);
+		int endresult = FN.factorial(7);
 
 		System.out.println("Factorial of given number is :" + endresult);
 		
