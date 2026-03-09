@@ -6,7 +6,7 @@ public class PrimeNumber {
 
         boolean isPrime = true;
 
-        if (number <= 1) {
+        if (number <= 1) { //If number is 0 or 1
             isPrime = false;
         } else {
 
