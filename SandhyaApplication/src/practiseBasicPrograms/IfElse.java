@@ -1,9 +1,11 @@
 package practiseBasicPrograms;
 
+import basicLearn.ExampleConstructor;
+
 
 //For Loan Eligibility check
 //If Age>= 21 and salary >=50000
-public class IfElse {
+public class IfElse extends ExampleConstructor {
 	
 	public void loanEligibility (int age, double salary) {
 		
@@ -23,6 +25,8 @@ public class IfElse {
 			IfElse Eli = new IfElse();
 			Eli.loanEligibility(23,1000);
 			
+			ExampleConstructor EC= new ExampleConstructor();
+			//EC.Test1(2, 3);
 		}
 		
 	}
